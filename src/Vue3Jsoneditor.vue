@@ -162,7 +162,8 @@ export default {
   },
   computed: {
     getHeight() {
-      if (this.height && !this.max) {
+      // if (this.height && !this.max) {
+      if (this.height) {
         return {
           height: this.height,
         };
